@@ -12,7 +12,7 @@ Place all written answers from `assignment-04.md` here for easier grading.
 
 1c) The work and span of the algorithm is O(log(N)) since for each time we go to a smaller coin value, we reduce N faster than we reduce the number of coins of each denomination.
 
-2a) Given we have coin
+2a) Given we have coin denominations of 1, 5, and 8, and we want to make change for 20, the greedy algorithm would pick two 8 coins and four 1 coins, while the optimal solution is actually four 5 coins.
 
 2b) C(N, i) is the minimum number of coins needed to make change for n.
 
